@@ -3,27 +3,29 @@ import { IoLogoGithub } from "react-icons/io";
 
 export const title = {
   plainText: "",
-  glowText: "nextMotion",
-  subTitle: "A sleek UI starter for an unforgettable portfolio",
-  highlight: ["unforgettable"],
+  glowText: "Josh Tripp",
+  subTitle:
+    "Crafting Seamless Digital Experiences with Modern Web Technologies",
+  highlight: ["Experiences"],
 };
 
 export const profileCard = {
-  title: "Jacob Pixler",
+  title: "Joshua Tripp",
   subTitle: "Fullstack Software Developer",
-  body: `Passionate about building scalable, user-friendly web applications. Always exploring new technologies and best practices to improve development processes. And I like cats.`,
+  body: `Driven to create intuitive, scalable web applications with a focus on user experience. Continuously seeking innovative technologies and refining best practices to enhance development workflows.`,
   socialUrls: [
     {
-      url: "https://www.linkedin.com/in/jacob-pixler-094348219/",
+      url: "https://www.linkedin.com/in/jdtripp",
       icon: <FaLinkedinIn size={20} />,
     },
     {
-      url: "https://github.com/yoyocharlie",
+      url: "https://github.com/TrippJD",
       icon: <IoLogoGithub size={20} />,
     },
   ],
   tooltip: {
-    imagePath: "https://avatars.githubusercontent.com/u/106707326?v=4",
+    imagePath:
+      "https://res.cloudinary.com/djmdikgs1/image/upload/v1732087387/Tripp-image.png",
     title: "Hey...",
     subTitle: "That's me!",
   },

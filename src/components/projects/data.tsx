@@ -8,74 +8,52 @@ export const sectionHeading = {
 
 export const timelineData: TimelineEntry[] = [
   {
-    title: "cs-flashcards",
+    title: "E-Commerce Platforms",
     projectUrls: {
-      repo: {
-        owner: "yoyocharlie",
-        name: "cs-flashcards-open",
-        showStarCount: false,
+      site: {
+        url: "https://modere.com",
+        icon: <RiExternalLinkLine size={20} />,
       },
     },
-    imageUrl: "/images/cs-flashcards.png",
-    description: `A fullstack flashcards web app that I maintain as a valuable learning resource for both myself and the developer community. By open-sourcing this project, I aim to share knowledge and provide a practical tool for others to learn and grow in their development journey.`,
-    tech: [
-      "TypeScript",
-      "Next.js",
-      "TailwindCSS",
-      "shadcn/ui",
-      "tRPC",
-      "Prisma",
-      "Docker",
-      "Vercel Postgres",
-    ],
+    imageUrl: "/images/modere-home.png",
+    description: `Building robust e-commerce platforms that deliver seamless shopping experiences`,
+    tech: ["TypeScript", "Next.js", "TailwindCSS", "ContentStack"],
     cards: {
       a: {
-        title: "Comprehensive Learning Tool",
-        text: `Built with TypeScript and Next.js, this app offers a robust
-              platform to enhance your development skills. It's
-              open-sourced to provide a practical tool and valuable knowledge to
-              developers at any stage.`,
+        title: "Crafting Intuitive and Engaging UX/UI Designs",
+        text: `Focused on creating intuitive and visually appealing user experiences, I designed interfaces that prioritize usability and accessibility. By combining modern design principles with user-centered methodologies, I ensured the final product is both engaging and easy to navigate.`,
       },
       b: {
-        title: "Easy Integration with Your DB of Choice",
-        text: `Effortlessly integrate with your preferred database, including
-              SQLite for local use. Utilizing Prisma and tRPC, this app offers a
-              flexible and scalable backend setup, making it easy to adapt and
-              manage your data needs as you develop and expand your project.`,
+        title: "Integration with Headless CMS ContentStack",
+        text: `Utilizing the robust features of ContentStack, I implemented seamless integration to efficiently manage and deliver content. This solution enables dynamic updates, streamlines content workflows, and ensures scalability for evolving project needs.`,
       },
     },
   },
   {
-    title: "nextMotion",
+    title: "Content pages",
     projectUrls: {
       site: {
-        url: "https://next-motion-five.vercel.app/",
+        url: "https://www.modere.com/collagensciences",
         icon: <RiExternalLinkLine size={20} />,
       },
-      repo: {
-        name: "nextMotion",
-        owner: "yoyocharlie",
-        showStarCount: true,
-      },
+      //   repo: {
+      //     name: "",
+      //     owner: "",
+      //     showStarCount: true,
+      //   },
     },
-    imageUrl: "/images/nextMotion.png",
-    description: `An open-source, opinionated portfolio template for creating a modern, reactive SPA portfolio.`,
-    tech: [
-      "TypeScript",
-      "Next.js",
-      "TailwindCSS",
-      "Aceternity UI",
-      "Framer Motion",
-    ],
+    imageUrl: "/images/content-page.png",
+    description: `A project showcasing the creation of compelling content pages for eCommerce platforms, designed to promote products and drive customer actions.`,
+    tech: ["TypeScript", "Next.js", "TailwindCSS", "SASS"],
     cards: {
       a: {
-        title: "Modern Reactive UI",
-        text: `This portfolio template offers a clean, modern, and fully responsive design. Built to be sleek and dynamic, it leverages the latest front-end technologies to ensure a smooth and engaging user experience, perfect for showcasing your projects and skills.`,
+        title: "Engaging Product Promotion Pages",
+        text: `Designed and developed content pages tailored to showcase eCommerce products with high-impact visuals and persuasive messaging. These pages effectively highlight product value and guide customers toward making a purchase.`,
       },
       b: {
-        title: "Easy Customization & Integration",
-        text: `Seamlessly customize the portfolio to fit your unique style and preferences. With support for easy integration into various data sources, this opinionated template is designed to simplify the process of building a single-page application (SPA) portfolio that truly reflects your work.`,
+        title: "Driving Conversions with Effective CTAs",
+        text: `By combining well-placed call-to-action buttons and strategic design elements, I created pages that deliver a seamless shopping experience. This approach ensures a high conversion rate, turning visitors into loyal customers.`,
       },
     },
-  }
+  },
 ];

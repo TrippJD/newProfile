@@ -1,5 +1,6 @@
 import { title } from "../data";
 import { Logo } from "~/components/ui/logo";
+import { GlowText } from "./glow-text";
 
 export function Title() {
   function parseForHighlightedWords(text: string) {
@@ -31,7 +32,7 @@ export function Title() {
       {/* Or use a logo */}
       <h1 className="text-nowrap text-center text-48-96 font-bold">
         {title.plainText}
-        <Logo className="m-auto w-full max-w-[600px]" glow />
+        <Logo size="500" className="m-auto w-full max-w-[600px]" glow />
       </h1>
       <div className="mb-8 text-center text-xl font-light text-muted-foreground">
         {parseForHighlightedWords(title.subTitle)}
