@@ -2,13 +2,13 @@ import Image from "next/image";
 import React from "react";
 
 export function Logo({
-  className,
-  glow,
+  //   className,
+  //   glow,
   size,
 }: {
   className?: string;
   glow?: boolean;
-  size: string;
+  size: number;
 }): JSX.Element {
   return (
     <Image src="/images/logo.png" width={size} height={size} alt="logo"></Image>

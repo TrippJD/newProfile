@@ -5,7 +5,7 @@ import { type Metadata } from "next";
 import { Toaster } from "~/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: "nextMotion",
+  title: "JD Tripp - Portfolio",
   description: "A Portfolio template built with Next.js",
   icons: [{ url: "/swirl.svg", rel: "icon" }],
 };
