@@ -15,7 +15,8 @@ export const timelineData: TimelineEntry[] = [
         icon: <RiExternalLinkLine size={20} />,
       },
     },
-    imageUrl: "/images/modere-home.png",
+    imageUrl:
+      "https://res.cloudinary.com/djmdikgs1/image/upload/v1732948208/modere-home.png",
     description: `Building robust e-commerce platforms that deliver seamless shopping experiences`,
     tech: ["TypeScript", "Next.js", "TailwindCSS", "ContentStack"],
     cards: {
@@ -42,7 +43,8 @@ export const timelineData: TimelineEntry[] = [
       //     showStarCount: true,
       //   },
     },
-    imageUrl: "/images/content-page.png",
+    imageUrl:
+      "https://res.cloudinary.com/djmdikgs1/image/upload/v1732948214/content-page.png",
     description: `A project showcasing the creation of compelling content pages for eCommerce platforms, designed to promote products and drive customer actions.`,
     tech: ["TypeScript", "Next.js", "TailwindCSS", "SASS"],
     cards: {
